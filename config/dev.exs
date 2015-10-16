@@ -29,6 +29,6 @@ config :logger, :console, format: "[$level] $message\n"
 # Configure your database
 config :shield_guy, ShieldGuy.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  # username: "postgres",
+  # password: "postgres",
   database: "shield_guy_dev"
