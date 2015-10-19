@@ -12,7 +12,10 @@
 
 data = [
   # { name,                  hp, bloodied, ac, fort, ref, will, str, con, dex, int, wis, cha }
-    { "Darella Dawnstriker", 32, 16,       12, 15,   11,  14,   10,  20,  8,   11,  10,  16  }
+    { "Darella Dawnstriker", 32, 16,       12, 15,   11,  14,   10,  20,  8,   11,  10,  16  },
+    { "Dorksoda",            28, 14,       18, 15,   11,  12,   20,  16,  8,   10,  11,  10  },
+    { "Pebble",              40, 20,       16, 17,   11,  15,   20,  11,  10,  10,  16,  8   },
+    { "Willy Nally",         22, 11,       14, 11,   14,  15,   10,  12,  10,  18,  16,  12  }
 ]
 
 defmodule Seeds do
